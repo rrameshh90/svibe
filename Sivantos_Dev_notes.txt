@@ -1,0 +1,170 @@
+
+Import database gz file:
+
+https://gist.github.com/rakeshtembhurne/5998421
+// Import database from gzip form
+gunzip < backup_13012023_magento_stg_na.sql.gz | mysql -u root -p sivantos
+
+gunzip < backup_25012023_shopxp_uat_magento.sql.gz | mysql -u root -p sivantos_uat_shopxp
+Git :
+
+git clone https://AU000Y0Z@bitbucket.org/ecommerceSivantos/ecommercesivantos.git 
+
+Git password: 
+ATBB9X57mmWNYcAeKbuxHDYUGXQs2A0EAD6B
+
+Smart Card Pwd: 04032020!!
+
+Server access: 
+Au000y0z
+Ip: 10.50.32.180
+
+
+
+
+http://uat-mysigniaca.uat.local/
+
+
+uat.local/
+
+
+
+ps -ef | grep nginx  --> check the process 
+
+PORT:
+
+https://www.cyberciti.biz/faq/unix-linux-check-if-port-is-in-use-command/
+
+
+
+email CSS template path:
+
+/var/www/html/ecommercesivantos/app/design/frontend/Sivantos/widex-shopxp/web/css/email-inline.css
+
+
+
+s:up error: 
+The XML in file "/var/www/html/ecommercesivantos/app/code/Sivantos/InforOrder/etc/db_schema.xml" is invalid:
+Element 'schema': Character content other than whitespace is not allowed because the content type is 'element-only'.
+Line: 2
+
+
+solution: 
+
+ecommercesivantos/app/code/Sivantos/InforOrder/etc/db_schema.xml
+ecommercesivantos/app/code/Sivantos/JwtAuth/etc/db_schema.xml
+
+
+
+issue:
+sudo systemctl restart nginx
+Job for nginx.service failed because the control process exited with error code.
+See "systemctl status nginx.service" and "journalctl -xeu nginx.service" for details
+ solution:
+
+/etc/nginx/nginx.conf
+
+replace content
+
+worker_connections 768; 
+from
+
+worker_connections 1024; 
+
+
+
+php bin/magento admin:user:create \
+    --admin-user="ramesh" \
+    --admin-password="admin@123" \
+    --admin-email="rameshkumar.r.ext@wsa.com" \
+    --admin-firstname="ramesh" \
+    --admin-lastname="kumar"
+    
+    
+local admin url :
+http://uat-oe.uat.local/admin/
+
+credential;
+ramesh
+admin@123!!
+
+
+
+Mageplaza Smtp Configuration :
+
+composer require mageplaza/module-smtp 
+
+Email Details
+Username :
+fadown244@gmail.com
+Password:
+Fadown@2022
+
+App Password :
+Generation Key : Smtp1
+Generation Password: zdwayplsejkdkbhk    
+
+Key: smtp3 
+Password :sofituqnbcbsnjcn
+
+
+
+
+
+http://uat-oe.uat.local/admin/ ==> admin url
+
+
+<img
+                                    class="item-img" 
+                                    src="https://stg2-uat-shopxp.sivantos.com/media/catalog/product/https://damcdn.widex.com/productimage/807a6ccd-d420-4d08-940f-c2b00d94a612/file/a22f9ff7-d234-4e74-93f3-f3d646056ca0"
+                                />
+                                
+                                6000056827 --> Order ID
+   /var/www/html/ecommercesivantos/app/design/frontend/Sivantos/widex-shopxp/web/css/email-inline.css
+   
+   ===>
+   
+      <td class="item-img-container">
+                                <img
+                                    class="item-img" width="66" height="75"
+                                    src="<?= $block->getImage($item->getProduct()) ?>" style="max-width:66px;max-height:75px;"
+                                />
+                            </td>
+                            
+   
+   error:
+   
+   Error 503 Backend fetch failed
+Backend fetch failed
+
+Guru Meditation:
+XID: 262193
+
+Varnish cache server
+
+
+Branch : 
+bugfix/FEATURE-916-fix-orderemail':
+
+/var/www/html/ecommercesivantos/app/code/Sivantos/OrderAttributes/view/frontend/templates/email/email_order_items.phtml
+   /var/www/html/ecommercesivantos/app/design/frontend/Sivantos/widex-shopxp/Magento_Email/email/header.html
+   /var/www/html/ecommercesivantos/app/design/frontend/Sivantos/widex-shopxp/web/css/email-inline.css
+   
+PR Request URL: 
+
+https://bitbucket.org/ecommerceSivantos/ecommercesivantos/pull-requests/new?source=bugfix/FEATURE-916-fix-orderemail&t=1
+
+
+Admin User:
+
+frontend login url & credentials:
+http://uat-rexton-us.uat.local/customer/account/login/
+
+rameshkumar.r.ext@wsa.com	
+Wsa@02012023!!
+
+
+Jet Brain  ==> PHP storm
+
+
+

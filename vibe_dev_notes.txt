@@ -24,8 +24,7 @@ gunzip < database.sql.gz | mysql -u user -p database
 
 http://pprod-us.otc.local/       ===> US
 http://pprod-au.otc.local/       ===> AU
-
-php bin/magento admin:user:create --admin-user=otcadmin --admin-password=admin@123 --admin-email=rameshkumar.r.ext@wsa.com --admin-firstname=ramesh --admin-lastname=kumar
+f
 
 ADmin:
 http://pprod-oe.otc.local/admin
@@ -586,7 +585,6 @@ UAT: https://vibe-au-uat-m2.sivantos.com/stripe/webhooks
 
  
 
-php bin/magento admin:user:create --admin-user=au000y0zz --admin-password=Vibe@123 --admin-email=rameshkumar.r@siemens.com --admin-firstname=au --admin-lastname=vibe
 
 
 
